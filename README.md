@@ -1,5 +1,10 @@
 # Disk Temperature Monitor
 
+## Disclaimer
+
+**Disclaimer:** This project is provided "as-is" without any warranties or guarantees. Use it at your own risk. The authors are not responsible for any damages or issues that arise from the use of this software. By using this project, you acknowledge and agree to these terms.
+
+
 <p align="center">
   <img src="https://socialify.git.ci/SexyWerewolf/Disk_Temperature/image?font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F78776000%3Fv%3D4&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;stargazers=1&amp;theme=Dark" alt="project-image">
 </p>
