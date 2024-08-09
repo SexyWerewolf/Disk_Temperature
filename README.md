@@ -9,7 +9,7 @@
   <img src="https://socialify.git.ci/SexyWerewolf/Disk_Temperature/image?font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F78776000%3Fv%3D4&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;stargazers=1&amp;theme=Dark" alt="project-image">
 </p>
 
-<p align="center">Monitor your disk temperatures with alerts via Telegram notifications.</p>
+<p align="center">Monitor your disk's temperatures with alerts via Telegram notifications.</p>
 
 ## Table of Contents
 
