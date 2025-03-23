@@ -283,6 +283,8 @@ The script will check the disk temperatures every $INTERVAL seconds."
             if [ "$CURRENT_TEMP" -ge "$CRITICAL_TEMP_DISK" ]; then
                 if [ $(($CURRENT_TIME - ${LAST_NOTIFICATION_TIMES[$i]})) -ge $COOLDOWN ]; then
                     LAST_NOTIFICATION_TIMES[$i]=$CURRENT_TIME
+
+                    local NICKNAME=${DISK_NICKNAMES[$i]:-""}
                     send_telegram_notification "$DISK" "$CURRENT_TEMP" "⚠️ *Warning:* Disk $DISK ($NICKNAME) has reached a critical temperature of $CURRENT_TEMP°C. Please take immediate action."
                 fi
             fi
