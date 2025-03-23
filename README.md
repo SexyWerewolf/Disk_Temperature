@@ -4,7 +4,6 @@
 
 **Disclaimer:** This project is provided "as-is" without any warranties or guarantees. Use it at your own risk. The authors are not responsible for any damages or issues that arise from the use of this software. By using this project, you acknowledge and agree to these terms.
 
-
 <p align="center">
   <img src="https://socialify.git.ci/SexyWerewolf/Disk_Temperature/image?font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F78776000%3Fv%3D4&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;stargazers=1&amp;theme=Dark" alt="project-image">
 </p>
@@ -37,6 +36,7 @@ Here're some of the project's best features:
 *   Remove Disk
 *   Set Global Critical Temperature
 *   Set Critical Temperature Per Disk
+*   Assign Nicknames to Disks for easier identification
 *   Change Bot Token & Chat ID
 
 ## Installation
@@ -63,7 +63,7 @@ Here're some of the project's best features:
 4. **Run the configuration:**
 
     ```bash
-   sudo disktemp -conf
+    sudo disktemp -conf
     ```
 
 5. **Start monitoring:**
@@ -74,15 +74,7 @@ Here're some of the project's best features:
 
 ## Usage
 
-To keep the monitoring script running in the background, you should use **`tmux`** or **`screen`**.
-
-## Contribution Guidelines
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a Pull Request.
+To keep the monitoring script running in the background, you should use **`tmux`** or **`screen`**, or add the script as service.
 
 For bug reports or feature requests, please open an issue on GitHub.
 
