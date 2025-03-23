@@ -145,7 +145,7 @@ set_global_critical_temperature() {
     fi
 
     {
-        grep -v '^CRITICAL_TEMP=' "$CONFIG_FILE" | grep -v '^CRITICAL_TEMPS' | grep -v '^DISK_NICKNAMES'
+        grep -v '^CRITICAL_TEMP=' "$CONFIG_FILE"
         echo "CRITICAL_TEMP=$NEW_CRITICAL_TEMP"
     } > "$CONFIG_FILE.temp"
 
@@ -212,6 +212,7 @@ save_critical_temp_per_disk_config() {
         for i in "${!DISKS[@]}"; do
             echo "CRITICAL_TEMPS[$i]=${CRITICAL_TEMPS[$i]}"
         done
+        echo "DISK_NICKNAMES=(${DISK_NICKNAMES[*]})"
     } > "$CONFIG_FILE.temp"
     mv "$CONFIG_FILE.temp" "$CONFIG_FILE"
 }
