@@ -23,9 +23,9 @@
 ## Project Screenshots:
 
 <p align="center">
-  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo1.png?raw=true" alt="project-screenshot" width="400" height="400">
-  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo2.png?raw=true" alt="project-screenshot" width="400" height="400">
-  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo3.png?raw=true" alt="project-screenshot" width="400" height="400">
+  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo1.png?raw=true" alt="project-screenshot" width="450" height="400">
+  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo2.png?raw=true" alt="project-screenshot" width="550" height="400">
+  <img src="https://github.com/SexyWerewolf/Disk_Temperature/blob/main/demo3.png?raw=true" alt="project-screenshot" width="400" height="650">
 </p>
 
 ## Features
